@@ -1,0 +1,129 @@
+
+
+body {
+  /*background-image: url ("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/GfRLKaE/award-ceremony-video-background_v1qm1nv__F0000.png");*/
+  background-image:url ("https://images.wallpaperscraft.com/image/resident_evil_extinction_flying_sky_hollywood_apocalypse_62855_1920x1080.jpg");
+  font-family: 'Lobster Two', cursive;
+  background-size: cover;
+  color:white;
+  height:100%;
+  text-align:center;
+  font-size:18px;
+}
+
+.wrappper{
+  @include clear;
+  width:100%;
+  margin:0 auto;
+}
+
+#scatagory{
+  width: 100%;
+  font-size: 30px;
+  float: none;
+  clear:left;
+}
+
+
+canvas{
+  color:white;
+  border: white dashed 2px;
+  padding:15px;
+}
+
+h1, h2, h3 {
+	font-family: 'Lobster Two', cursive;
+	font-weight: 100;
+	text-transform: uppercase;
+   margin:5px 0;
+}
+
+
+h1 {
+	font-size: 2.6em;
+}
+
+h2 {
+	font-size: 1.6em;
+}
+
+p{
+  font-size: 1.6em;
+}
+
+#alphabet {
+  
+  margin:15px auto;
+  padding:0;
+  max-width:900px;
+}
+
+#alphabet li {
+  float:left;
+  margin: 0 10px 10px 0;
+  list-style:none;
+  width:35px;
+  height:30px;
+  padding-top:10px;
+  background:white;
+  color: green;
+  cursor:pointer;
+  
+  border: solid 1px white;
+    
+}
+
+#my-word {
+  margin: 0;
+  display: block;
+  padding: 0;
+  display:block;
+}
+
+#my-word li {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  display: inline-block;
+  padding: 0 10px;
+  font-size:1.6em;
+}
+
+.active {
+  opacity:0.4;
+  cursor:default;
+  
+}
+
+#mylives{
+  font-size:1.6em;
+  text-align:center;
+  display:block;
+}
+
+button{
+  
+  background:rgba(30, 11, 82, 0.582);
+  color: white;
+  border: solid 1px white;
+  text-decoration:none;
+  cursor:pointer;
+  font-size:1.2em;
+  padding:18px 10px;
+  width:180px;
+  margin: 10px;
+  outline: none;
+  
+}
+
+@media (max-width: 767px) {
+  #alphabet {
+  padding:0 0 0 15px;
+}
+  }
+
+  @media (max-width: 480px) {
+  #alphabet {
+  padding:0 0 0 25px;
+}
+  }
